@@ -6,6 +6,7 @@ import (
 )
 
 const charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNPQRSTUVWXYZ0123456789"
+
 var seededRand = rand.New(rand.NewSource(time.Now().UnixNano()))
 
 func GenerateShortCode(length int) string {
